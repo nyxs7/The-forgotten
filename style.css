@@ -1,75 +1,17 @@
-body {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
-  max-width: 720px;
-  margin: 48px auto;
-  padding: 0 16px;
-  line-height: 1.7;
-  color: #222;
-  background: #fff;
-}
-
-/* Header */
 header {
-  margin-bottom: 2.5rem;
-}
+  max-width: 680px;
+  margin: 0 auto 28px;
+  padding: 72px 32px;
+  border-radius: 8px;
 
-h1 {
-  font-size: 2.2rem;
-  margin-bottom: 0.3rem;
-}
+  background:
+    linear-gradient(
+      rgba(0,0,0,0.5),
+      rgba(0,0,0,0.5)
+    ),
+    url("header.jpg");
 
-.subtitle {
-  color: #666;
-  font-size: 0.95rem;
-}
-
-/* Post list */
-.post-list {
-  list-style: none;
-  padding: 0;
-}
-
-.post-list li {
-  margin-bottom: 1rem;
-}
-
-.post-list a {
-  font-size: 1.1rem;
-  color: #2563eb;
-  text-decoration: none;
-}
-
-.post-list a:hover {
-  text-decoration: underline;
-}
-
-.date {
-  display: block;
-  font-size: 0.85rem;
-  color: #999;
-  margin-top: 0.2rem;
-}
-
-/* Article */
-article h1 {
-  font-size: 2rem;
-}
-
-article p {
-  margin-bottom: 1.2rem;
-}
-
-/* Footer */
-footer {
-  margin-top: 4rem;
-  padding-top: 1.5rem;
-  border-top: 1px solid #eee;
-  font-size: 0.8rem;
-  color: #999;
-}
-
-/* Back link */
-.back {
-  color: #2563eb;
-  text-decoration: none;
+  background-size: cover;
+  background-position: center;
+  color: white;
 }
